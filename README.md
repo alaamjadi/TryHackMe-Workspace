@@ -4,6 +4,8 @@
 
 | **Date**   | **Type**    | **Level** | **Room Name**                                                                            |
 | ---------- | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-03-15 | Walkthrough | Easy      | [Networking Concepts](https://tryhackme.com/room/networkingconcepts)                     |
+| 2025-03-15 | Walkthrough | Easy      | [Linux Shells](https://tryhackme.com/room/linuxshells)                                   |
 | 2025-03-14 | Walkthrough | Easy      | [Windows Command Line](https://tryhackme.com/room/windowscommandline)                    |
 | 2025-03-12 | Walkthrough | Easy      | [Introductory Networking](https://tryhackme.com/room/introtonetworking)                  |
 | 2025-02-20 | Walkthrough | Easy      | [Active Directory Basics](https://tryhackme.com/room/winadbasics)                        |
