@@ -4,6 +4,7 @@
 
 | **Date**   | **Type**    | **Level** | **Room Name**                                                                            |
 | ---------- | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-04-10 | Walkthrough | Easy      | [Networking Core Protocols](https://tryhackme.com/room/networkingcoreprotocols)          |
 | 2025-04-04 | Walkthrough | Easy      | [Networking Essentials](https://tryhackme.com/room/networkingessentials)                 |
 | 2025-03-15 | Walkthrough | Easy      | [Networking Concepts](https://tryhackme.com/room/networkingconcepts)                     |
 | 2025-03-15 | Walkthrough | Easy      | [Linux Shells](https://tryhackme.com/room/linuxshells)                                   |
@@ -44,6 +45,7 @@
 | ---------- | ----------- | --------- | -------------------------------------------------------------------- |
 | 2025-01-27 | Walkthrough | Easy      | [Pre Security](https://tryhackme.com/path/outline/presecurity)       |
 | 2025-01-22 | Walkthrough | Easy      | [Advent of Cyber 2024](https://tryhackme.com/room/adventofcyber2024) |
+| 2025-04-08 | CTF         | Medium    | [Hackfinity Battle](https://tryhackme.com/room/HackfinityBattle)     |
 
 ## Badges
 
@@ -57,3 +59,9 @@
 | <img src="./badges/streak30.svg" alt= "30 Day Streak" width="50" height="50">              | 2024-12-30 | 30 Day Streak        |
 | <img src="./badges/streak7.svg" alt= "7 Day Streak" width="50" height="50">                | 2021-12-11 | 7 Day Streak         |
 | <img src="./badges/linux.svg" alt= "cat linux.txt" width="50" height="50">                 | 2021-11-17 | cat linux.txt        |
+
+## Summaries
+
+| **Date**   | **Room Name**                                                         |
+| ---------- | --------------------------------------------------------------------- |
+| 2025-04-10 | [Networking Core Protocols](./summaries/Networking_Core_Protocols.md) |
