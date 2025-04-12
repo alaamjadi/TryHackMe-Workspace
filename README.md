@@ -4,6 +4,7 @@
 
 | **Date**   | **Type**    | **Level** | **Room Name**                                                                            |
 | ---------- | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-04-12 | Walkthrough | Easy      | [Networking Secure Protocols](https://tryhackme.com/room/networkingsecureprotocols)      |
 | 2025-04-10 | Walkthrough | Easy      | [Networking Core Protocols](https://tryhackme.com/room/networkingcoreprotocols)          |
 | 2025-04-04 | Walkthrough | Easy      | [Networking Essentials](https://tryhackme.com/room/networkingessentials)                 |
 | 2025-03-15 | Walkthrough | Easy      | [Networking Concepts](https://tryhackme.com/room/networkingconcepts)                     |
@@ -43,9 +44,9 @@
 
 | **Date**   | **Type**    | **Level** | **Certificate Name**                                                 |
 | ---------- | ----------- | --------- | -------------------------------------------------------------------- |
+| 2025-04-08 | CTF         | Medium    | [Hackfinity Battle](https://tryhackme.com/room/HackfinityBattle)     |
 | 2025-01-27 | Walkthrough | Easy      | [Pre Security](https://tryhackme.com/path/outline/presecurity)       |
 | 2025-01-22 | Walkthrough | Easy      | [Advent of Cyber 2024](https://tryhackme.com/room/adventofcyber2024) |
-| 2025-04-08 | CTF         | Medium    | [Hackfinity Battle](https://tryhackme.com/room/HackfinityBattle)     |
 
 ## Badges
 
