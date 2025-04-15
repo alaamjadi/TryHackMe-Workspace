@@ -4,6 +4,7 @@
 
 | **Date**   | **Type**    | **Level** | **Room Name**                                                                            |
 | ---------- | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-04-15 | Walkthrough | Easy      | [Tcpdump: The Basics](https://tryhackme.com/room/tcpdump)                                |
 | 2025-04-14 | Walkthrough | Easy      | [Wireshark: The Basics](https://tryhackme.com/room/wiresharkthebasics)                   |
 | 2025-04-12 | Walkthrough | Easy      | [Networking Secure Protocols](https://tryhackme.com/room/networkingsecureprotocols)      |
 | 2025-04-10 | Walkthrough | Easy      | [Networking Core Protocols](https://tryhackme.com/room/networkingcoreprotocols)          |
