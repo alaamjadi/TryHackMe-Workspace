@@ -4,6 +4,7 @@
 
 | **Date**   | **Type**    | **Level** | **Room Name**                                                                            |
 | ---------- | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-04-21 | Walkthrough | Easy      | [Nmap: The Basics](https://tryhackme.com/room/nmap)                                      |
 | 2025-04-20 | Walkthrough | Easy      | [Windows PowerShell](https://tryhackme.com/room/windowspowershell)                       |
 | 2025-04-15 | Walkthrough | Easy      | [Tcpdump: The Basics](https://tryhackme.com/room/tcpdump)                                |
 | 2025-04-14 | Walkthrough | Easy      | [Wireshark: The Basics](https://tryhackme.com/room/wiresharkthebasics)                   |
