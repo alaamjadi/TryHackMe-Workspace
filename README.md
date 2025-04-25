@@ -4,6 +4,7 @@
 
 | **Date**   | **Type**    | **Level** | **Room Name**                                                                            |
 | ---------- | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-04-25 | Walkthrough | Easy      | [Public Key Cryptography Basics](https://tryhackme.com/room/publickeycrypto)             |
 | 2025-04-23 | Walkthrough | Easy      | [Cryptography Basics](https://tryhackme.com/room/cryptographybasics)                     |
 | 2025-04-21 | Walkthrough | Easy      | [Nmap: The Basics](https://tryhackme.com/room/nmap)                                      |
 | 2025-04-20 | Walkthrough | Easy      | [Windows PowerShell](https://tryhackme.com/room/windowspowershell)                       |
