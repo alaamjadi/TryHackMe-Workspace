@@ -4,6 +4,7 @@
 
 | **Finished** | **Type**    | **Level** | **Room Name**                                                                            |
 | ------------ | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-05-03   | Walkthrough | Easy      | [Moniker Link (CVE-2024-21413)](https://tryhackme.com/room/monikerlink)                  |
 | 2025-05-03   | Walkthrough | Easy      | [John the Ripper: The Basics](https://tryhackme.com/room/johntheripperbasics)            |
 | 2025-04-28   | Walkthrough | Easy      | [Hashing Basics](https://tryhackme.com/room/hashingbasics)                               |
 | 2025-04-25   | Walkthrough | Easy      | [Public Key Cryptography Basics](https://tryhackme.com/room/publickeycrypto)             |
