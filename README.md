@@ -2,8 +2,13 @@
 
 ## Rooms
 
+Advent of Cyber Prep Track
+
 | **Finished** | **Type**    | **Level** | **Room Name**                                                                            |
 | ------------ | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-11-21   | Walkthrough | Easy      | [Advent of Cyber Prep Track](https://tryhackme.com/room/adventofcyberpreptrack)          |
+| 2025-11-21   | Walkthrough | Easy      | [Metasploit: Exploitation](https://tryhackme.com/room/metasploitexploitation)            |
+| 2025-06-12   | Walkthrough | Easy      | [Metasploit: Introduction](https://tryhackme.com/room/metasploitintro)                   |
 | 2025-06-10   | Walkthrough | Easy      | [Web Application Basics](https://tryhackme.com/room/webapplicationbasics)                |
 | 2025-05-03   | Walkthrough | Easy      | [Moniker Link (CVE-2024-21413)](https://tryhackme.com/room/monikerlink)                  |
 | 2025-05-03   | Walkthrough | Easy      | [John the Ripper: The Basics](https://tryhackme.com/room/johntheripperbasics)            |
@@ -62,6 +67,7 @@
 
 | **Badge**                                                                                  | **Date**   | **Name**             |
 | ------------------------------------------------------------------------------------------ | ---------- | -------------------- |
+| <img src="./badges/streak3.svg" alt= "3 Day Streak" width="50" height="50">                | 2025-11-21 | 3 Day Streak         |
 | <img src="./badges/streak180.svg" alt= "180 Day Streak" width="50" height="50">            | 2025-05-30 | 180 Day Streak       |
 | <img src="./badges/streak90.svg" alt= "90 Day Streak" width="50" height="50">              | 2025-02-28 | 90 Day Streak        |
 | <img src="./badges/howthewebworks.svg" alt= "World Wide Web" width="50" height="50">       | 2025-01-27 | World Wide Web       |
@@ -76,6 +82,7 @@
 
 ## Summaries
 
-| **Date**   | **Room Name**                                                         |
-| ---------- | --------------------------------------------------------------------- |
-| 2025-04-10 | [Networking Core Protocols](./summaries/Networking_Core_Protocols.md) |
+| **Date**   | **Room Name**                                                                   |
+| ---------- | ------------------------------------------------------------------------------- |
+| 2025-04-10 | [Networking Core Protocols](./summaries/Networking_Core_Protocols.md)           |
+| 2025-11-21 | [Metasploit: Exploitation (needs edit)](./summaries/Metasploit-Exploitation.md) |
