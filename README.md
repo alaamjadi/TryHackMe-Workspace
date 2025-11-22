@@ -6,6 +6,7 @@ Advent of Cyber Prep Track
 
 | **Finished** | **Type**    | **Level** | **Room Name**                                                                            |
 | ------------ | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-11-22   | Walkthrough | Easy      | [ Metasploit: Meterpreter](https://tryhackme.com/room/meterpreter)                       |
 | 2025-11-21   | Walkthrough | Easy      | [Advent of Cyber Prep Track](https://tryhackme.com/room/adventofcyberpreptrack)          |
 | 2025-11-21   | Walkthrough | Easy      | [Metasploit: Exploitation](https://tryhackme.com/room/metasploitexploitation)            |
 | 2025-06-12   | Walkthrough | Easy      | [Metasploit: Introduction](https://tryhackme.com/room/metasploitintro)                   |
@@ -67,6 +68,7 @@ Advent of Cyber Prep Track
 
 | **Badge**                                                                                  | **Date**   | **Name**             |
 | ------------------------------------------------------------------------------------------ | ---------- | -------------------- |
+| <img src="./badges/metasploit.svg" alt= "3 Day Streak" width="50" height="50">             | 2025-11-22 | Metasploitable       |
 | <img src="./badges/streak3.svg" alt= "3 Day Streak" width="50" height="50">                | 2025-11-21 | 3 Day Streak         |
 | <img src="./badges/streak180.svg" alt= "180 Day Streak" width="50" height="50">            | 2025-05-30 | 180 Day Streak       |
 | <img src="./badges/streak90.svg" alt= "90 Day Streak" width="50" height="50">              | 2025-02-28 | 90 Day Streak        |
@@ -82,7 +84,8 @@ Advent of Cyber Prep Track
 
 ## Summaries
 
-| **Date**   | **Room Name**                                                                   |
-| ---------- | ------------------------------------------------------------------------------- |
-| 2025-04-10 | [Networking Core Protocols](./summaries/Networking_Core_Protocols.md)           |
-| 2025-11-21 | [Metasploit: Exploitation (needs edit)](./summaries/Metasploit-Exploitation.md) |
+| **Date**   | **Room Name**                                                         |
+| ---------- | --------------------------------------------------------------------- |
+| 2025-04-10 | [Networking Core Protocols](./summaries/Networking_Core_Protocols.md) |
+| 2025-11-21 | [Metasploit: Exploitation](./summaries/Metasploit-Exploitation.md)    |
+| 2025-11-22 | [Metasploit: Meterpreter](./summaries/Metasploit-Meterpreter.md)      |
