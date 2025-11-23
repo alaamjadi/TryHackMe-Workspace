@@ -2,12 +2,9 @@
 
 ## Rooms
 
-JavaScript Essentials
-
-Advent of Cyber Prep Track
-
 | **Finished** | **Type**    | **Level** | **Room Name**                                                                            |
 | ------------ | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-11-23   | Walkthrough | Easy      | [ SQL Fundamentals](https://tryhackme.com/room/sqlfundamentals)                          |
 | 2025-11-23   | Walkthrough | Easy      | [ JavaScript Essentials](https://tryhackme.com/room/javascriptessentials)                |
 | 2025-11-23   | Walkthrough | Easy      | [ Blue](https://tryhackme.com/room/blue)                                                 |
 | 2025-11-22   | Walkthrough | Easy      | [ Metasploit: Meterpreter](https://tryhackme.com/room/meterpreter)                       |
