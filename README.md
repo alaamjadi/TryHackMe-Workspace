@@ -6,6 +6,7 @@ Advent of Cyber Prep Track
 
 | **Finished** | **Type**    | **Level** | **Room Name**                                                                            |
 | ------------ | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-11-23   | Walkthrough | Easy      | [ Blue](https://tryhackme.com/room/blue)                                                 |
 | 2025-11-22   | Walkthrough | Easy      | [ Metasploit: Meterpreter](https://tryhackme.com/room/meterpreter)                       |
 | 2025-11-21   | Walkthrough | Easy      | [Advent of Cyber Prep Track](https://tryhackme.com/room/adventofcyberpreptrack)          |
 | 2025-11-21   | Walkthrough | Easy      | [Metasploit: Exploitation](https://tryhackme.com/room/metasploitexploitation)            |
@@ -68,6 +69,7 @@ Advent of Cyber Prep Track
 
 | **Badge**                                                                                  | **Date**   | **Name**             |
 | ------------------------------------------------------------------------------------------ | ---------- | -------------------- |
+| <img src="./badges/blue.svg" alt= "3 Day Streak" width="50" height="50">                   | 2025-11-23 | Blue                 |
 | <img src="./badges/metasploit.svg" alt= "3 Day Streak" width="50" height="50">             | 2025-11-22 | Metasploitable       |
 | <img src="./badges/streak3.svg" alt= "3 Day Streak" width="50" height="50">                | 2025-11-21 | 3 Day Streak         |
 | <img src="./badges/streak180.svg" alt= "180 Day Streak" width="50" height="50">            | 2025-05-30 | 180 Day Streak       |
