@@ -71,6 +71,8 @@ nmap -sV -vv --script vuln
 
 ### Shell to meterpreter
 
+`sessions -u <session_id>` Upgrading shells to Meterpreter
+
 `use post/multi/manage/shell_to_meterpreter`
 hosts -R
 set session <session_number>

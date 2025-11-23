@@ -1,6 +1,9 @@
 # Ignore VS Code settings
 .vscode/
 
+# Ingore PDF folder
+PTR/
+
 # Ignore Mac and system files
 .DS_Store
 Thumbs.db
