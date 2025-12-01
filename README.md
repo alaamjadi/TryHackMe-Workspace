@@ -4,6 +4,7 @@
 
 | **Finished** | **Type**    | **Level** | **Room Name**                                                                            |
 | ------------ | ----------- | --------- | ---------------------------------------------------------------------------------------- |
+| 2025-12-01   | Walkthrough | Easy      | [ Burp Suite: The Basics](https://tryhackme.com/room/burpsuitebasics)                    |
 | 2025-11-23   | Walkthrough | Easy      | [ SQL Fundamentals](https://tryhackme.com/room/sqlfundamentals)                          |
 | 2025-11-23   | Walkthrough | Easy      | [ JavaScript Essentials](https://tryhackme.com/room/javascriptessentials)                |
 | 2025-11-23   | Walkthrough | Easy      | [ Blue](https://tryhackme.com/room/blue)                                                 |
@@ -81,8 +82,6 @@
 | <img src="./badges/streak30.svg" alt= "30 Day Streak" width="50" height="50">              | 2024-12-30 | 30 Day Streak        |
 | <img src="./badges/streak7.svg" alt= "7 Day Streak" width="50" height="50">                | 2021-12-11 | 7 Day Streak         |
 | <img src="./badges/linux.svg" alt= "cat linux.txt" width="50" height="50">                 | 2021-11-17 | cat linux.txt        |
-
-180 Day Streak
 
 ## Summaries
 
