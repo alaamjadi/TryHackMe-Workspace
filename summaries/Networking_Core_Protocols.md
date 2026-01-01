@@ -1,189 +1,131 @@
-# Networking Core Protocols Summary
+# Networking: Core Protocols
 
-| **Protocol** | **Transport Protocol** | **Default Port Number** |
-| ------------ | ---------------------- | ----------------------- |
-| TELNET       | TCP                    | 23                      |
-| DNS          | UDP or TCP             | 53                      |
-| HTTP         | TCP                    | 80                      |
-| HTTPS        | TCP                    | 443                     |
-| FTP          | TCP                    | 21                      |
-| SMTP         | TCP                    | 25                      |
-| POP3         | TCP                    | 110                     |
-| IMAP         | TCP                    | 143                     |
+**References:** DNS [RFC1035](https://www.ietf.org/rfc/rfc1035.txt), WHOIS [RFC3912](https://www.ietf.org/rfc/rfc3912.txt), HTTP [RFC2616](https://www.ietf.org/rfc/rfc2616.txt), HTTPS [REFC2660](https://www.ietf.org/rfc/rfc2660.txt), FTP [RFC959](https://www.ietf.org/rfc/rfc959.txt), SMTP [RFC5321](https://www.ietf.org/rfc/rfc5321.txt), POP3 [RFC1939](https://www.ietf.org/rfc/rfc1939.txt), IMAP [RFC9051](https://www.ietf.org/rfc/rfc9051.txt)
 
-## DNS Protocol
+### 1. Protocol Overview Table
 
-Reference: [RFC1035](https://www.ietf.org/rfc/rfc1035.txt)
+| Protocol   | Layer | Transport | Port     | Primary Function                   |
+| :--------- | :---- | :-------- | :------- | :--------------------------------- |
+| **DNS**    | 7     | UDP/TCP   | 53       | Maps domain names to IP addresses  |
+| **HTTP**   | 7     | TCP       | 80/8080  | Unsecured web communication        |
+| **HTTPS**  | 7     | TCP       | 443/8443 | Secured web communication          |
+| **FTP**    | 7     | TCP       | 21       | High-speed file transfer           |
+| **SMTP**   | 7     | TCP       | 25       | Sending/transferring email         |
+| **POP3**   | 7     | TCP       | 110      | Retrieving email (Local download)  |
+| **IMAP**   | 7     | TCP       | 143      | Synchronizing email (Server-based) |
+| **TELNET** | 7     | TCP       | 23       | Remote terminal connection         |
 
-Domain Name System (DNS) is responsible for properly mapping a domain name to an IP address.
+### 2. DNS (Domain Name System)
 
-> Application Layer 7 of OSI  
-> Traffic on UDP prot 53  
-> Fallback on TCP port 53
+DNS translates human-readable domain names into machine-readable IP addresses.
 
-### DNS recods:
+#### Common Record Types:
 
-1. `A` record: (Address) maps a hostname to one or more IPv4 addresses. example.com -> 172.17.2.172
-2. `AAAA` (quad-A) record: similar to A Record, but for IPv6.
-3. `CNAME` (Canonical Name) record: maps a domain name to another domain name. www.example.com -> example.com or example.org.
-4. `MX` (Mail Exchange) record: specifies the mail server responsible for handling emails for a domain.
+- **A**: Maps a hostname to one or more IPv4 addresses.
+- **AAAA**: Similar to A Record, but for IPv6
+- **CNAME**: Maps one domain name to another (alias).
+- **MX**: Identifies the mail server responsible for the domain.
 
-### Example:
+**Commands:** `nslookup <domain.tld>` or `dig <domain.tld>`
 
-- Browsing example.com -> browser resloves domain name by querying the DNS server
-- Sending email to test[at]example.com -> the mail server queries the DNS server to find MX record.
+### 3. WHOIS
 
-### CLI:
+Provides public registration data for domain entities. It includes registration dates and contact info for the registrant, unless protected by a privacy service.
 
-- `nslookup {Domain.TLD}`
-- `dig {Domain.TLD}`
+**Commands:** `whois <domain.tld>`
 
-## WHOIS Protocol
+### 4. HTTP & HTTPS
 
-Reference: [RFC1035](https://www.ietf.org/rfc/rfc3912.txt)
+Defines communication between web browsers and servers using specific methods.
 
-Provides information about the entity that registered a domain name, including name, phone number, email, and address. Record first creation and last updated date. Moreover, you can find the registrant’s name, address, phone, and email.
+#### Methods:
 
-### CLI:
+- **GET**: Retrieves data (HTML, images) from the server.
+- **POST**: Submits new data (forms, uploads) to the server.
+- **PUT**: Creates or overwrites resources on the server.
+- **DELETE**: Removes specified resources from the server.
 
-`whois {Domain.TLD}`
+#### CLI:
 
-## HTTP/HTTPS Protocol
+```shell
+telnet <host> 80
+GET / HTTP/1.1
+Host: <domain>
+```
 
-References: HTTP [RFC2616](https://www.ietf.org/rfc/rfc2616.txt), HTTPS [REFC2660](https://www.ietf.org/rfc/rfc2660.txt)
+### 5. FTP (File Transfer Protocol)
 
-The Hypertext Transfer Protocol (Secure) relies on TCP and defines how your web browser communicates with the web servers.
+- **Ports:** FTP server listens on port 21, but actual data transfer occurs over a separate secondary connection.
 
-> HTTP listens on TCP port 80 or 8080  
-> HTTPS listens on TCP prot 443 or 8443
+**Commands:** `USER`/`PASS`: authentication, `RETR`: Download a file (Retrieve), `STOR`: Upload a file (Store), `type ascii`: Switches to text transfer mode.
 
-### Commands/Methods:
+#### CLI:
 
-- `GET` retrieves data (HTML, Image,...) from a server
-- `POST` allows us to submit new data (submitting a form, uploading a file) to the server.
-- `PUT` is used to create a new resource on the server and to update and overwrite existing information.
-- `DELETE` is used to delete a specified file or resource on the server.
+```shell
+ftp <host>
+<username> (or anonymous)
+<password> (or press enter for anonymous user)
+type ascii (switching to ASCII mode)
+get <file_name>
+pwd (or ls, cd, pwd)
+close (or bye)
+```
 
-### CLI:
+### 6. Email Protocols (SMTP vs. POP3 vs. IMAP)
 
-- `telnet {Host} 80`
-- `GET / HTTP/1.1` or `GET /{Path/File-Name} HTTP/1.1`
-- `Host: {Host}` or `Host: anything`  
-  Note: on some servers, specifying the host is not necessary.
+#### Simple Mail Transfer Protocol (SMTP): Sending
 
-## FTP Protocol
+- **Function**: Client to server, or server to server transfers.
+- **Commands**: `HELO`: initiate, `MAIL FROM`, `RCPT TO`, `DATA`: message body, `.`: end message.
 
-Reference: [RFC959](https://www.ietf.org/rfc/rfc959.txt)
+#### CLI:
 
-File Transfer Protocol (FTP) is very efficient for file transfer, and when all conditions are equal, it can achieve higher speeds than HTTP.
+````shell
+telnet <host> 25
+HELO/EHLO <host>
+MAIL FROM: <sender_email>
+RCPT TO: <receiver_email>
+DATA
 
-> Server listens on TCP port 21  
-> Data transfer is conducted via another connection from the client to the server.
+From: <sender_email>
+To: <receiver_email>
+Subject: <subject>
+```
+<Message>
+```
+.
+QUIT
+````
 
-### Commands:
+#### Post Office Protocol version 3 (POP3): Retrieving
 
-- `USER` is used to input the username
-- `PASS` is used to enter the password
-- `RETR` (retrieve) is used to download a file from the FTP server to the client.
-- `STOR` (store) is used to upload a file from the client to the FTP server.
+- **Function**: Downloads email to a local client; typically deletes the copy from the server.
+- **Commands**: `USER`/`PASS`: authentication, `STAT`: check size, `LIST`: lists all messages and their sizes, `RETR`: retrieves the specified message, `DELE`: marks a message for deletion, `QUIT`: ends the POP3 session applying changes, such as deletions.
 
-### CLI:
+#### CLI:
 
-- `ftp {Host}`
-- `{Username}`  
-   Note: anonymous can be used as username if not specified.
-- `{Password}`  
-   Note: press enter for anonymous user.
-- `type ascii`  
-   Note: switched to ASCII mode as the file was a text file.
-- `get {File-Name}`
-- `ls`, `cd`, `pwd`, and ...
-- `close` or `bye`
+```shell
+telnet <ip_address> 110
+AUTH
+USER <username>
+PASS <password>
+STAT
+LIST
+RETR <message_number>
+DELE <message_number>
+```
 
-## SMTP Protocol
+#### IMAP: Synchronizing
 
-Reference: [RFC5321](https://www.ietf.org/rfc/rfc5321.txt)
+- **Function**: Keeps messages on the server to allow synchronization across multiple devices (phone, laptop, etc.).
+- **Commands**: `LOGIN <username> <password>`: authentication, `SELECT <mailbox_name>`: selects the mailbox folder to work with, `FETCH <mail_number> <data_item_name>`:retrieve specific body data (example: fetch 3 body[]), `MOVE <sequence_set> <mailbox>`: moves the specified messages to another mailbox, `COPY <sequence_set> <data_item_name>`: copies the specified messages to another mailbox, `LOGOUT`: logs out.
 
-Simple Mail Transfer Protocol (SMTP) defines how a mail client talks with a mail server and a mail server talks with another mail server.
+#### CLI:
 
-> Server listens on TCP port 25
-
-### Commands:
-
-- `HELO` or `EHLO` initiates an SMTP session
-- `MAIL FROM` specifies the sender’s email address
-- `RCPT TO` specifies the recipient’s email address
-- `DATA` indicates that the client will begin sending the content of the email message
-- `.` (dot) is sent on a line by itself to indicate the end of the email message
-
-### CLI:
-
-- `telnet {Host} 25`
-- `HELO/EHLO {Host}`
-- `MAIL FROM: <{Sender-Email}>`
-- `RCPT TO: <{Receiver-Email}>`
-- `DATA`
-- ```
-  From: {Sender-Email}
-  To: {Receiver-Email}
-  Subject: {Subject}
-
-  {Message}
-  ```
-
-- `.`
-- `QUIT`
-
-## POP3 Protocl
-
-Reference: [RFC1939](https://www.ietf.org/rfc/rfc1939.txt)
-
-Post Office Protocol version 3 (POP3) is designed to retrieve email messages from a mail server to a local client.
-
-> Server listens on TCP port 110
-
-### Commands:
-
-- `USER` identifies the user
-- `PASS` provides the user’s password
-- `STAT` requests the number of messages and total size
-- `LIST` lists all messages and their sizes
-- `RETR` retrieves the specified message
-- `DELE` marks a message for deletion
-- `QUIT` ends the POP3 session applying changes, such as deletions
-
-### CLI:
-
-- `telnet {IP-Address} 110`
-- `AUTH`
-- `USER {Username}`
-- `PASS {Password}`
-- `STAT`
-- `LIST`
-- `RETR {Message-Number}`
-- `DELE {Message-Number}`
-
-## IMAP Protocol
-
-Reference: [RFC9051](https://www.ietf.org/rfc/rfc9051.txt)
-
-Internet Message Access Protocol (IMAP) allows synchronizing read, moved, and deleted messages.
-
-> Server listens on TCP port 143
-
-### Commands:
-
-- `LOGIN` <username> <password> authenticates the user
-- `SELECT` <mailbox> selects the mailbox folder to work with
-- `FETCH` <mail_number> <data_item_name> Example fetch 3 body[] to fetch message number 3, header and body.
-- `MOVE` <sequence_set> <mailbox> moves the specified messages to another mailbox
-- `COPY` <sequence_set> <data_item_name> copies the specified messages to another mailbox
-- `LOGOUT` logs out
-
-### CLI:
-
-- `telnet {IP-Address} 143`
-- `A LOGIN {User-Name} {Password}`
-- `B SELECT {Folder-Name}`
-- `C FETCH {Message-Number} body[]`
-- `D LOGOUT`
+```shell
+telnet <ip_address> 143
+A LOGIN <user_name> <password>
+B SELECT <folder_name>
+C FETCH <message_number> body[]
+D LOGOUT`
+```

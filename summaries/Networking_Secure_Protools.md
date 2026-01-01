@@ -1,22 +1,48 @@
-# Networking Secure Protocols Summary
+# Networking: Secure Protocols
 
-Goal: Protecting the confidentiality, integrity, or authenticity of the data transferred.
+This summary covers the essential concepts of network security protocols, focusing on protecting data during transit.
 
-## TLS
+---
 
-At one point, you would only need a packet-capturing tool to read all the chats, emails, and passwords of the users on your network. It was not uncommon for an attacker to set their network card in promiscuous mode, i.e., to capture all packets, including those not destined to it. They would later go through all the packet captures and obtain the login credentials of unsuspecting victims. There was nothing a user could do to prevent their login password from being sent in cleartext. Nowadays, it has become uncommon to come across a service that sends login credentials in cleartext.
+### 1. Core Security Principles
 
-In the early 1990s, Netscape Communications recognised the need for secure communication on the World Wide Web. They eventually developed SSL (Secure Sockets Layer) and released SSL 2.0 in 1995 as the first public version. In 1999, the Internet Engineering Task Force (IETF) developed TLS (Transport Layer Security). Although very similar, TLS 1.0 was an upgrade to SSL 3.0 and offered various improved security measures. In 2018, TLS had a significant overhaul of its protocol and TLS 1.3 was released. The purpose is not to remember the exact dates but to realise the amount of work and time put into developing the current version of TLS, i.e., TLS 1.3. Over more than two decades, there have been many things to learn from and improve with every version.
+Secure protocols are designed to address three primary security goals:
 
-Like SSL, its predecessor, TLS is a cryptographic protocol operating at the OSI model’s transport layer. It allows secure communication between a client and a server over an insecure network. By secure, we refer to confidentiality and integrity; TLS ensures that no one can read or modify the exchanged data. Please take a minute to think about what it would be like to do online shopping, online banking, or even online messaging and email without being able to guarantee the confidentiality and integrity of the network packets. Without TLS, we would be unable to use the Internet for many applications that are now part of our daily routine.
+- **Confidentiality**: Ensuring that unauthorized individuals cannot read the data, protecting sensitive information like passwords or credit card numbers.
+- **Integrity**: Guaranteeing that data cannot be altered by an adversary while in transit.
+- **Authenticity**: Verifying that the communication is occurring with the genuine intended server rather than a fraudulent one.
 
-Nowadays, tens of protocols have received security upgrades with the simple addition of TLS. Examples include HTTP, DNS, MQTT, and SIP, which have become HTTPS, DoT (DNS over TLS), MQTTS, and SIPS, where the appended “S” stands for Secure due to the use of SSL/TLS. In the following tasks, we will visit HTTPS, SMTPS, POP3S, and IMAPS.
+---
 
-Technical Background
-We will not discuss the TLS handshake; however, if you are curious, you can check the Network Security Protocols room. We will give a general overview of how TLS is set up and used.
+### 2. Transport Layer Security (TLS)
 
-The first step for every server (or client) that needs to identify itself is to get a signed TLS certificate. Generally, the server administrator creates a Certificate Signing Request (CSR) and submits it to a Certificate Authority (CA); the CA verifies the CSR and issues a digital certificate. Once the (signed) certificate is received, it can be used to identify the server (or the client) to others, who can confirm the validity of the signature. For a host to confirm the validity of a signed certificate, the certificates of the signing authorities need to be installed on the host. In the non-digital world, this is similar to recognising the stamps of various authorities. The screenshot below shows the trusted authorities installed in a web browser.
+TLS is a security layer integrated into standard protocols to provide encryption and protection. When applied, the protocol name typically appends an "**S**" to signify it is secure.
 
-Generally speaking, getting a certificate signed requires paying an annual fee. However, Let’s Encrypt allows you to get your certificate signed for free.
+| Original Protocol | Secure Version | Typical Port Change   |
+| :---------------- | :------------- | :-------------------- |
+| **HTTP**          | **HTTPS**      | 80 $\rightarrow$ 443  |
+| **POP3**          | **POP3S**      | 110 $\rightarrow$ 995 |
+| **SMTP**          | **SMTPS**      | 25 $\rightarrow$ 465  |
+| **IMAP**          | **IMAPS**      | 143 $\rightarrow$ 993 |
 
-Finally, we should mention that some users opt to create a self-signed certificate. A self-signed certificate cannot prove the server’s authenticity as no third party has confirmed it.
+---
+
+### 3. Secure Remote Access: SSH
+
+While **Telnet** allows for remote terminal connections, it is considered insecure because it transmits data in plain text. **SSH (Secure Shell)** serves as the secure alternative.
+
+- **Function**: Provides an encrypted channel for remote administration and command execution.
+- **Default Port**: TCP Port 22.
+
+---
+
+### 4. Analyzing Encrypted Traffic (Wireshark)
+
+Because TLS encrypts application data, standard packet captures cannot be read without the session keys. To decrypt HTTPS traffic in Wireshark for analysis, follow these steps:
+
+1.  **Generate SSL Keys**: Launch a browser (like Chromium) with a flag to log keys: `chromium --ssl-key-log-file=~/ssl-key.log`.
+2.  **Configure Wireshark**:
+    - Right-click a packet and select **Protocol Preferences**.
+    - Navigate to **Transport Layer Security** $\rightarrow$ **Open Transport Layer Security preferences**.
+    - Click **Browse** to select the `ssl-key.log` file generated by the browser.
+3.  **Result**: Wireshark will use the log file to decrypt the traffic, making sensitive information (like login credentials) visible in the packet details.
