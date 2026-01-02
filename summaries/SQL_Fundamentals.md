@@ -1,6 +1,6 @@
 # SQL : Fundamentals
 
-A comprehensive guide to Relational Database Management Systems (RDBMS) based on the TryHackMe SQL Fundamentals course.
+A comprehensive guide to Relational Database Management Systems (RDBMS).
 
 ### 1. Database Landscape: Database Management Systems (DBMS)
 

@@ -1,4 +1,4 @@
-# Metasploit: Meterpreter Summary
+# Metasploit: Meterpreter
 
 This summary covers the advanced capabilities of the Meterpreter payload, its stealth mechanisms, and essential post-exploitation commands.
 

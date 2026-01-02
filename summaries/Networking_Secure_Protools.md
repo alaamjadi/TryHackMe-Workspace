@@ -2,8 +2,6 @@
 
 This summary covers the essential concepts of network security protocols, focusing on protecting data during transit.
 
----
-
 ### 1. Core Security Principles
 
 Secure protocols are designed to address three primary security goals:
@@ -11,8 +9,6 @@ Secure protocols are designed to address three primary security goals:
 - **Confidentiality**: Ensuring that unauthorized individuals cannot read the data, protecting sensitive information like passwords or credit card numbers.
 - **Integrity**: Guaranteeing that data cannot be altered by an adversary while in transit.
 - **Authenticity**: Verifying that the communication is occurring with the genuine intended server rather than a fraudulent one.
-
----
 
 ### 2. Transport Layer Security (TLS)
 
@@ -25,16 +21,12 @@ TLS is a security layer integrated into standard protocols to provide encryption
 | **SMTP**          | **SMTPS**      | 25 $\rightarrow$ 465  |
 | **IMAP**          | **IMAPS**      | 143 $\rightarrow$ 993 |
 
----
-
 ### 3. Secure Remote Access: SSH
 
 While **Telnet** allows for remote terminal connections, it is considered insecure because it transmits data in plain text. **SSH (Secure Shell)** serves as the secure alternative.
 
 - **Function**: Provides an encrypted channel for remote administration and command execution.
 - **Default Port**: TCP Port 22.
-
----
 
 ### 4. Analyzing Encrypted Traffic (Wireshark)
 

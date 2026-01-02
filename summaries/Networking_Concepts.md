@@ -13,7 +13,7 @@ The Open Systems Interconnection (OSI) model is a seven-layer conceptual framewo
 
 **Mnemonic**: "Please Do Not Throw Spinach Pizza Away" (Physical to Application).
 
-![Image of the OSI Model 7 layers](./media/OSI_Model.svg){width=30%}
+<img src="./media/OSI_Model.svg" alt= "Image of the OSI Model 7 layers" width="300">
 
 ### Layer 1: Physical Layer
 
@@ -120,7 +120,7 @@ Encapsulation is the process where each layer adds a header (and sometimes a tra
 3.  **Network Packet**: Adds IP header.
 4.  **Data Link Frame**: Adds Ethernet/WiFi header and trailer.
 
-![Encapsulation](./media/Encapsulation.svg){width=50%}
+<img src="./media/Encapsulation.svg" alt= "Encapsulation" width="700">
 
 ### Telnet
 

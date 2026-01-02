@@ -1,6 +1,11 @@
 # Networking: Core Protocols
 
-**References:** DNS [RFC1035](https://www.ietf.org/rfc/rfc1035.txt), WHOIS [RFC3912](https://www.ietf.org/rfc/rfc3912.txt), HTTP [RFC2616](https://www.ietf.org/rfc/rfc2616.txt), HTTPS [REFC2660](https://www.ietf.org/rfc/rfc2660.txt), FTP [RFC959](https://www.ietf.org/rfc/rfc959.txt), SMTP [RFC5321](https://www.ietf.org/rfc/rfc5321.txt), POP3 [RFC1939](https://www.ietf.org/rfc/rfc1939.txt), IMAP [RFC9051](https://www.ietf.org/rfc/rfc9051.txt)
+**Reference:**
+
+- DNS [RFC1035](https://www.ietf.org/rfc/rfc1035.txt), WHOIS [RFC3912](https://www.ietf.org/rfc/rfc3912.txt)
+- HTTP [RFC2616](https://www.ietf.org/rfc/rfc2616.txt), HTTPS [REFC2660](https://www.ietf.org/rfc/rfc2660.txt)
+- FTP [RFC959](https://www.ietf.org/rfc/rfc959.txt)
+- SMTP [RFC5321](https://www.ietf.org/rfc/rfc5321.txt), POP3 [RFC1939](https://www.ietf.org/rfc/rfc1939.txt), IMAP [RFC9051](https://www.ietf.org/rfc/rfc9051.txt)
 
 ### 1. Protocol Overview Table
 

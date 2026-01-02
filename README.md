@@ -4,6 +4,7 @@
 
 | **Finished** |  **Type**   | **Level** | **Room Name**                                                                            |
 | :----------: | :---------: | :-------: | :--------------------------------------------------------------------------------------- |
+|  2026-01-01  | Walkthrough |   Easy    | [SQLMap: The Basics](https://tryhackme.com/room/sqlmapthebasics)                         |
 |  2026-01-01  | Walkthrough |   Easy    | [Shells Overview](https://tryhackme.com/room/shellsoverview)                             |
 |  2025-12-28  | Walkthrough |   Easy    | [Gobuster: The Basics](https://tryhackme.com/room/gobusterthebasics)                     |
 |  2025-12-24  | Walkthrough |   Easy    | [Advent of Cyber 2025](https://tryhackme.com/adventofcyber25)                            |
@@ -65,6 +66,7 @@
 
 |  **Date**  |  **Type**   | **Level** | **Certificate Name**                                                 |
 | :--------: | :---------: | :-------: | :------------------------------------------------------------------- |
+| 2025-12-24 | Walkthrough |   Easy    | [Advent of Cyber 2025](https://tryhackme.com/adventofcyber25)        |
 | 2025-04-08 |     CTF     |  Medium   | [Hackfinity Battle](https://tryhackme.com/room/HackfinityBattle)     |
 | 2025-01-27 | Walkthrough |   Easy    | [Pre Security](https://tryhackme.com/path/outline/presecurity)       |
 | 2025-01-22 | Walkthrough |   Easy    | [Advent of Cyber 2024](https://tryhackme.com/room/adventofcyber2024) |
@@ -72,9 +74,10 @@
 ## Badges
 
 |                                         **Badge**                                          |  **Date**  | **Name**             |
-| :----------------------------------------------------------------------------------------: | :--------: | -------------------- |
-|          <img src="./badges/blue.svg" alt= "3 Day Streak" width="50" height="50">          | 2025-11-23 | Blue                 |
-|       <img src="./badges/metasploit.svg" alt= "3 Day Streak" width="50" height="50">       | 2025-11-22 | Metasploitable       |
+| :----------------------------------------------------------------------------------------: | :--------: | :------------------- |
+|  <img src="./badges/swordapprentice.svg" alt= "Sword Apprentice" width="50" height="50">   | 2026-01-02 | Sword Apprentice     |
+|              <img src="./badges/blue.svg" alt= "Blue" width="50" height="50">              | 2025-11-23 | Blue                 |
+|      <img src="./badges/metasploit.svg" alt= "Metasploitable" width="50" height="50">      | 2025-11-22 | Metasploitable       |
 |        <img src="./badges/streak3.svg" alt= "3 Day Streak" width="50" height="50">         | 2025-11-21 | 3 Day Streak         |
 |      <img src="./badges/streak180.svg" alt= "180 Day Streak" width="50" height="50">       | 2025-05-30 | 180 Day Streak       |
 |       <img src="./badges/streak90.svg" alt= "90 Day Streak" width="50" height="50">        | 2025-02-28 | 90 Day Streak        |
@@ -90,11 +93,12 @@
 
 |  **Date**  | **Update** | **Room Name**                                                            |
 | :--------: | :--------: | :----------------------------------------------------------------------- |
-| 2026-01-01 |     -      | [Shells Overview](./summaries/Shells.md)                                 |
-| 2025-12-28 | 2025-12-29 | [SQL : Fundamentals](./summaries/SQL_Fundamentals.md)                    |
+| 2026-01-02 |     -      | [SQL Injection(SQLMap)](./summaries/SQLMap.md)                           |
+| 2026-01-01 | 2026-01-02 | [Shells Overview](./summaries/Shells.md)                                 |
+| 2025-12-28 | 2026-01-02 | [SQL : Fundamentals](./summaries/SQL_Fundamentals.md)                    |
 | 2025-11-23 | 2025-12-29 | [Metasploit: Meter Exploit](./summaries/Metasploit_Meter_Exploit.md)     |
-| 2025-11-22 | 2025-12-29 | [Metasploit: Meterpreter](./summaries/Metasploit_Meterpreter.md)         |
+| 2025-11-22 | 2026-01-02 | [Metasploit: Meterpreter](./summaries/Metasploit_Meterpreter.md)         |
 | 2025-11-21 | 2025-12-29 | [Metasploit: Exploitation](./summaries/Metasploit_Exploitation.md)       |
-| 2025-04-12 | 2025-12-29 | [Networking: Secure Protools](./summaries/Networking_Secure_Protools.md) |
-| 2025-04-12 | 2025-12-29 | [Networking: Concepts](./summaries/Networking_Concepts.md)               |
-| 2025-04-10 | 2025-12-29 | [Networking: Core Protocols](./summaries/Networking_Core_Protocols.md)   |
+| 2025-04-12 | 2026-01-02 | [Networking: Secure Protools](./summaries/Networking_Secure_Protools.md) |
+| 2025-04-12 | 2026-01-02 | [Networking: Concepts](./summaries/Networking_Concepts.md)               |
+| 2025-04-10 | 2026-01-02 | [Networking: Core Protocols](./summaries/Networking_Core_Protocols.md)   |
