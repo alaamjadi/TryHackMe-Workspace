@@ -4,6 +4,7 @@
 
 | **Finished** |  **Type**   | **Level** | **Room Name**                                                                            |
 | :----------: | :---------: | :-------: | :--------------------------------------------------------------------------------------- |
+|  2026-01-02  | Walkthrough |   Easy    | [SOC Fundamentals](https://tryhackme.com/room/socfundamentals)                           |
 |  2026-01-01  | Walkthrough |   Easy    | [SQLMap: The Basics](https://tryhackme.com/room/sqlmapthebasics)                         |
 |  2026-01-01  | Walkthrough |   Easy    | [Shells Overview](https://tryhackme.com/room/shellsoverview)                             |
 |  2025-12-28  | Walkthrough |   Easy    | [Gobuster: The Basics](https://tryhackme.com/room/gobusterthebasics)                     |
@@ -93,6 +94,7 @@
 
 |  **Date**  | **Update** | **Room Name**                                                            |
 | :--------: | :--------: | :----------------------------------------------------------------------- |
+| 2026-01-02 |     -      | [SOC Fundamentals](./summaries/SOC_Fundamentals.md)                      |
 | 2026-01-02 |     -      | [SQL Injection(SQLMap)](./summaries/SQLMap.md)                           |
 | 2026-01-01 | 2026-01-02 | [Shells Overview](./summaries/Shells.md)                                 |
 | 2025-12-28 | 2026-01-02 | [SQL : Fundamentals](./summaries/SQL_Fundamentals.md)                    |

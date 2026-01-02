@@ -2,9 +2,7 @@
 
 **Reference**:
 
-- [SQLMap App](https://sqlmap.org/)
-- [SQLMap GitHub](https://github.com/sqlmapproject/sqlmap/)
-- [SQLMap Usage Wiki](https://github.com/sqlmapproject/sqlmap/wiki/usage)
+- SQLMap: [App](https://sqlmap.org/), [GitHub](https://github.com/sqlmapproject/sqlmap/), [Wiki](https://github.com/sqlmapproject/sqlmap/wiki/usage)
 
 ### 1. SQL Injection (SQLi) Fundamentals
 
