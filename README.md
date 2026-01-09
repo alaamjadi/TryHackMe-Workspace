@@ -4,6 +4,9 @@
 
 | **Finished** |  **Type**   | **Level** | **Room Name**                                                                             |
 | :----------: | :---------: | :-------: | :---------------------------------------------------------------------------------------- |
+|  2026-01-09  | Walkthrough |   Easy    | [Introduction to SIEM](https://tryhackme.com/room/introtosiem)                            |
+|  2026-01-09  | Walkthrough |   Easy    | [Logs Fundamentals](https://tryhackme.com/room/logsfundamentals)                          |
+|  2026-01-09  | Walkthrough |   Easy    | [Incident Response Fundamentals](https://tryhackme.com/room/incidentresponsefundamentals) |
 |  2026-01-03  | Walkthrough |   Easy    | [Digital Forensics Fundamentals](https://tryhackme.com/room/digitalforensicsfundamentals) |
 |  2026-01-02  | Walkthrough |   Easy    | [SOC Fundamentals](https://tryhackme.com/room/socfundamentals)                            |
 |  2026-01-01  | Walkthrough |   Easy    | [SQLMap: The Basics](https://tryhackme.com/room/sqlmapthebasics)                          |
@@ -95,14 +98,17 @@
 
 |  **Date**  | **Update** | **Room Name**                                                                   |
 | :--------: | :--------: | :------------------------------------------------------------------------------ |
-| 2026-01-03 |     -      | [Digital Forensics Fundamentals](./summaries/Digital_Forensics_Fundamentals.md) |
-| 2026-01-02 |     -      | [SOC Fundamentals](./summaries/SOC_Fundamentals.md)                             |
-| 2026-01-02 |     -      | [SQL Injection(SQLMap)](./summaries/SQLMap.md)                                  |
+| 2026-01-09 |     -      | [Introduction to SIEM](./summaries/Introduction-to-SIEM.md)                     |
+| 2026-01-09 |     -      | [Logs Fundamentals](./summaries/Logs-Fundamentals.md)                           |
+| 2026-01-09 |     -      | [Incident Response Fundamentals](./summaries/Incident-Response-Fundamentals.md) |
+| 2026-01-03 |     -      | [Digital Forensics Fundamentals](./summaries/Digital-Forensics-Fundamentals.md) |
+| 2026-01-02 |     -      | [SOC Fundamentals](./summaries/SOC-Fundamentals.md)                             |
+| 2026-01-02 |     -      | [SQL Injection(SQLMap)](./summaries/SQL_Map.md)                                 |
 | 2026-01-01 | 2026-01-02 | [Shells Overview](./summaries/Shells.md)                                        |
-| 2025-12-28 | 2026-01-02 | [SQL : Fundamentals](./summaries/SQL_Fundamentals.md)                           |
-| 2025-11-23 | 2025-12-29 | [Metasploit: Meter Exploit](./summaries/Metasploit_Meter_Exploit.md)            |
-| 2025-11-22 | 2026-01-02 | [Metasploit: Meterpreter](./summaries/Metasploit_Meterpreter.md)                |
-| 2025-11-21 | 2025-12-29 | [Metasploit: Exploitation](./summaries/Metasploit_Exploitation.md)              |
-| 2025-04-12 | 2026-01-02 | [Networking: Secure Protools](./summaries/Networking_Secure_Protools.md)        |
-| 2025-04-12 | 2026-01-02 | [Networking: Concepts](./summaries/Networking_Concepts.md)                      |
-| 2025-04-10 | 2026-01-02 | [Networking: Core Protocols](./summaries/Networking_Core_Protocols.md)          |
+| 2025-12-28 | 2026-01-02 | [SQL : Fundamentals](./summaries/SQL-Fundamentals.md)                           |
+| 2025-11-23 | 2025-12-29 | [Metasploit: Meter Exploit](./summaries/Metasploit-Meter-Exploit.md)            |
+| 2025-11-22 | 2026-01-02 | [Metasploit: Meterpreter](./summaries/Metasploit-Meterpreter.md)                |
+| 2025-11-21 | 2025-12-29 | [Metasploit: Exploitation](./summaries/Metasploit-Exploitation.md)              |
+| 2025-04-12 | 2026-01-02 | [Networking: Secure Protools](./summaries/Networking-Secure-Protools.md)        |
+| 2025-04-12 | 2026-01-02 | [Networking: Concepts](./summaries/Networking-Concepts.md)                      |
+| 2025-04-10 | 2026-01-02 | [Networking: Core Protocols](./summaries/Networking-Core-Protocols.md)          |
