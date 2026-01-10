@@ -4,6 +4,8 @@
 
 | **Finished** |  **Type**   | **Level** | **Room Name**                                                                             |
 | :----------: | :---------: | :-------: | :---------------------------------------------------------------------------------------- |
+|  2026-01-10  | Walkthrough |   Easy    | [IDS Fundamentals](https://tryhackme.com/room/idsfundamentals)                            |
+|  2026-01-10  | Walkthrough |   Easy    | [Firewall Fundamentals](https://tryhackme.com/room/firewallfundamentals)                  |
 |  2026-01-09  | Walkthrough |   Easy    | [Introduction to SIEM](https://tryhackme.com/room/introtosiem)                            |
 |  2026-01-09  | Walkthrough |   Easy    | [Logs Fundamentals](https://tryhackme.com/room/logsfundamentals)                          |
 |  2026-01-09  | Walkthrough |   Easy    | [Incident Response Fundamentals](https://tryhackme.com/room/incidentresponsefundamentals) |
@@ -98,6 +100,8 @@
 
 |  **Date**  | **Update** | **Room Name**                                                                   |
 | :--------: | :--------: | :------------------------------------------------------------------------------ |
+| 2026-01-10 |     -      | [IDS Fundamentals](./summaries/IDS-Fundamentals.md)                             |
+| 2026-01-10 |     -      | [Firewall Fundamentals](./summaries/Firewall-Fundamentals.md)                   |
 | 2026-01-09 |     -      | [Introduction to SIEM](./summaries/Introduction-to-SIEM.md)                     |
 | 2026-01-09 |     -      | [Logs Fundamentals](./summaries/Logs-Fundamentals.md)                           |
 | 2026-01-09 |     -      | [Incident Response Fundamentals](./summaries/Incident-Response-Fundamentals.md) |
