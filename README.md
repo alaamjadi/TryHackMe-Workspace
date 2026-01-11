@@ -4,6 +4,8 @@
 
 | **Finished** |  **Type**   | **Level** | **Room Name**                                                                             |
 | :----------: | :---------: | :-------: | :---------------------------------------------------------------------------------------- |
+|  2026-01-11  | Walkthrough |   Easy    | [CyberChef: The Basics](https://tryhackme.com/room/cyberchefbasics)                       |
+|  2026-01-11  | Walkthrough |   Easy    | [Vulnerability Scanner Overview](https://tryhackme.com/room/vulnerabilityscanneroverview) |
 |  2026-01-10  | Walkthrough |   Easy    | [IDS Fundamentals](https://tryhackme.com/room/idsfundamentals)                            |
 |  2026-01-10  | Walkthrough |   Easy    | [Firewall Fundamentals](https://tryhackme.com/room/firewallfundamentals)                  |
 |  2026-01-09  | Walkthrough |   Easy    | [Introduction to SIEM](https://tryhackme.com/room/introtosiem)                            |
@@ -100,6 +102,8 @@
 
 |  **Date**  | **Update** | **Room Name**                                                                   |
 | :--------: | :--------: | :------------------------------------------------------------------------------ |
+| 2026-01-11 |     -      | [CyberChef: The Basics](./summaries/CyberChef-The-Basics.md)                    |
+| 2026-01-11 |     -      | [Vulnerability Scanner Overview](./summaries/Vulnerability-Scanner-Overview.md) |
 | 2026-01-10 |     -      | [IDS Fundamentals](./summaries/IDS-Fundamentals.md)                             |
 | 2026-01-10 |     -      | [Firewall Fundamentals](./summaries/Firewall-Fundamentals.md)                   |
 | 2026-01-09 |     -      | [Introduction to SIEM](./summaries/Introduction-to-SIEM.md)                     |
