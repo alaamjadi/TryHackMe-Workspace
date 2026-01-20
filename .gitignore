@@ -4,6 +4,9 @@
 # Ingore PDF folder
 PTR/
 
+# Ingore specific file
+summaries/ChatGPT-Prompt.md
+
 # Ignore Mac and system files
 .DS_Store
 Thumbs.db
