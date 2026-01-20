@@ -1,4 +1,4 @@
-# Shells Overview: Summary & Cheat Sheet
+# Shells Overview
 
 **Reference:**
 

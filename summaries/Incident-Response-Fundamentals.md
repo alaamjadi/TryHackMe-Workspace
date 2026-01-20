@@ -1,4 +1,4 @@
-## Incident Response Fundamentals – Summary & Cheat Sheet
+# Incident Response Fundamentals
 
 ### 1. What Is Incident Response?
 

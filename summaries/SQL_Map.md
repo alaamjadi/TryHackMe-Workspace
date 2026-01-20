@@ -1,4 +1,4 @@
-# SQLMap: Automated SQL Injection Summary
+# SQLMap: Automated SQL Injection
 
 **Reference**:
 
@@ -69,6 +69,8 @@ _Use these payloads in **URLs** after the first parameter `?id=1` or **Search Ba
 ### 3. SQLMap Workflow & Command Reference
 
 SQLMap is an open-source command-line tool that automates the process of detecting and exploiting SQL injection flaws.
+
+To download the latest version on any OS use `git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev` and then run the app using Python with `python3 sqlmap.py`. The latest version of SQLMap is usually present on Kali Linux.
 
 #### A. Establishing the Connection
 
