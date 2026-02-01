@@ -4,6 +4,7 @@
 
 | **Finished** |  **Type**   | **Level** | **Room Name**                                                                                |
 | :----------: | :---------: | :-------: | :------------------------------------------------------------------------------------------- |
+|  2026-01-20  | Walkthrough |   EASY    | [SOC L1 Alert Triage](https://tryhackme.com/room/socl1alerttriage)                           |
 |  2026-01-19  | Walkthrough |   EASY    | [OWASP Top 10 2025: Insecure Data Handling](https://tryhackme.com/room/owasptopten2025three) |
 |  2026-01-19  | Walkthrough |   EASY    | [OWASP Top 10 2025: Application Design Flaws](https://tryhackme.com/room/owasptopten2025two) |
 |  2026-01-18  | Walkthrough |   EASY    | [OWASP Top 10 2025: IAAA Failures](https://tryhackme.com/room/owasptopten2025one)            |
