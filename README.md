@@ -4,6 +4,7 @@
 
 | **Finished** |  **Type**   | **Level** | **Room Name**                                                                                |
 | :----------: | :---------: | :-------: | :------------------------------------------------------------------------------------------- |
+|  2026-02-24  | Walkthrough |   EASY    | [Inside a Computer System](https://tryhackme.com/room/insideacomputer)                       |
 |  2026-02-01  | Walkthrough |   EASY    | [SOC L1 Alert Reporting](https://tryhackme.com/room/socl1alertreporting)                     |
 |  2026-01-20  | Walkthrough |   EASY    | [SOC L1 Alert Triage](https://tryhackme.com/room/socl1alerttriage)                           |
 |  2026-01-19  | Walkthrough |   EASY    | [OWASP Top 10 2025: Insecure Data Handling](https://tryhackme.com/room/owasptopten2025three) |
